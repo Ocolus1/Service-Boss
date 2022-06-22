@@ -1,0 +1,133 @@
+{% load static %}
+<nav class="navbar navbar-expand-lg p-3 ">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="{% static 'landingPage/img/logo.png' %}" alt="" width="24" height="24"
+        class="d-inline-block align-text-top">
+      ServiceBoss
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown mx-2">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Community
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link" href="#">Events</a>
+        </li>
+      </ul>
+      <form class="d-flex flex-column flex-sm-row" role="search">
+        <div class="input-icons flex-nowrap me-4 p-2 ">
+          <i class="fas fa-search-location icon"></i>
+          <input class="me-2 text-center" type="search" placeholder="Search Here..." aria-label="Search">
+        </div>
+        <button class="btn btn0" type="submit">Download App</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<hr />
+<style type="text/css">
+  .navbar-brand {
+    padding-right: 2.5rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .nav-item {
+    font-family: "inter";
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .input-icons i {
+    position: absolute;
+    padding-top: .9rem;
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .input-icons input {
+    border: none;
+    border-bottom: 1px solid #2B2B39;
+    background: transparent;
+    padding: .6em 1em;
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .input-icons input::placeholder {
+    color: #686868;
+  }
+
+  .input-icons input:focus {
+    outline: none;
+  }
+
+  .icon {
+    padding: 10px;
+    color: #2B2B39;
+    min-width: 50px;
+    text-align: center;
+  }
+
+  nav {
+    background: linear-gradient(311.76deg, #E4D4FE -15.24%, #FFFFFF 78.85%);
+    margin-bottom: 0;
+  }
+
+  .btn0 {
+    padding: 1.125em 1.5em;
+    color: #FFFFFF;
+    background: #7F56D9;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    border-radius: 14px;
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .btn0:hover {
+    color: #FFFFFF;
+    background: #7F56D9;
+  }
+
+  hr {
+    opacity: 0.1;
+    border: 1px solid #7F56D9;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+   .btn0 {
+      width: fit-content;
+      margin-top: 1rem;
+      margin-bottom: .5rem;
+   }
+
+  }
+</style>

@@ -1,0 +1,241 @@
+{% load static %}
+<div class="footer_contain">
+    <div class="container p-4">
+        <div class="">
+            <div class="row">
+                <div class="col-md-2 col-sm-6 col-xs-12">
+                    <div class="foot_body">
+                        <p class="foot_header">Home</p>
+                        <p class="foot_p">
+                            <a href="#">Home</a>
+                        </p>
+                        <p class="foot_p">
+                            <a href="#">Community</a>
+                        </p>
+                        <p class="foot_p">
+                            <a href="#">Events</a>
+                        </p>
+                        <p class="foot_p">
+                            <a href="#">Contact</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-xs-12">
+                    <div class="foot_body">
+                        <p class="foot_header">Resources</p>
+                        <p class="foot_p">
+                            <a href="#">Blog</a>
+                        </p>
+                        <p class="foot_p">
+                            <a href="#">News</a>
+                        </p>
+                        <p class="foot_p">
+                            <a href="#">Guides</a>
+                        </p>
+                        <p class="foot_p">
+                            <a href="#">Help Center</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-xs-12">
+                    <div class="foot_body">
+                        <p class="foot_header">Community</p>
+                        <p class="foot_p">
+                            <a href="#">News Feed</a>
+                        </p>
+                        <p class="foot_p">
+                            <a href="#">Profile</a>
+                        </p>
+                        <p class="foot_p">
+                            <a href="#">Friends</a>
+                        </p>
+                        <p class="foot_p">
+                            <a href="#">Forum</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-xs-12">
+                    <div class="foot_body">
+                        <p class="foot_header">Main Links</p>
+                        <p class="foot_p">
+                            <a href="#">Member</a>
+                        </p>
+                        <p class="foot_p">
+                            <a href="#">Activity</a>
+                        </p>
+                        <p class="foot_p">
+                            <a href="#">Groups</a>
+                        </p>
+                        <p class="foot_p">
+                            <a href="#">Private Group</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div>
+                        <p class="foot_l_p1">Stay updated to ServiceBoss</p>
+                        <p class="foot_l_p2">
+                            Subscribe to be the first one to
+                            know about updates. Enter your email
+                        </p>
+                        <div>
+                            <div class="input-group input-group-sm mb-3">
+                                <input type="text" id="subscribe" class="" placeholder="Email Address"
+                                   >
+                                <button class="btn btn5">Subcribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer_contain_bottom">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-4 col-sm-6 col-xs-12 foot">
+                <p class="fessburn_name">Fessburn Creative Agency</p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 foot">
+                <div>
+                    <img src="{% static 'landingPage/img/logo.png' %}" alt="" width="20" height="20"
+                    class="img_logo">
+                    <span class="Service_Boss_logo">ServiceBoss</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="d-flex flex-row ">
+                    <div class="p-2">
+                        <a href="" class="social_link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="p-2">
+                        <a href="" class="social_link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="p-2">
+                        <a href="" class="social_link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="p-2">
+                        <a href="" class="social_link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style type="text/css">
+    .footer_contain {
+        padding: 3.8rem 4rem 5rem 4rem;
+        background-color: #2B2B39;
+    }
+    .foot_header {
+        color: #ffffff;
+        font-size: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+    .foot_l_p1 {
+        color: #ffffff;
+        font-size: 1.25rem;
+        margin-bottom: 1.25rem;
+        width: 8rem;
+    }
+    a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .foot_p a {
+        color: #E7E7E7;
+    }
+
+    .foot_l_p2{
+        color: #E7E7E7;
+        width: 17rem;
+    }
+    .btn5 {
+        color: #2B2B39;
+        background: #ffffff;
+        padding: 1rem 1.125rem;
+    }
+
+    .btn5:hover {
+        color: #2B2B39;
+        background: #ffffff;
+    }
+
+    #subscribe {
+        color: #ffffff;
+        background: transparent;
+        width: 12rem;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        height: 44px;
+    }
+
+    #subscribe::placeholder {
+        color: #717179;
+        padding-left: 1rem;
+    }
+    /* bottom */
+    .footer_contain_bottom {
+        background: #20202D;
+        padding: 1rem;
+    }
+
+    .fessburn_name {
+        color: #F6F6F6;
+    }
+
+    .Service_Boss_logo {
+        color: #F1F1F1;
+        font-weight: 600;
+        font-size: 1.5rem;
+        /* border: 1px solid brown; */
+    }
+    .img_logo {
+        margin-top: -.5rem;
+    }
+    .social_link i {
+        color: #2B2B39;
+        background: #ffffff;
+        padding: .6rem;
+        border-radius: 50%;
+    }
+    @media only screen and (max-width: 400px) {
+        .foot_body {
+            margin-bottom: 4rem;
+        }
+
+        .btn5 {
+            margin-top: 1rem;
+        }
+
+        .foot {
+            margin-bottom: 1.1rem;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .foot_body {
+            margin-bottom: 2rem;
+        }
+        .btn5 {
+            margin-top: 1rem;
+        }
+    }
+    
+    @media only screen and (max-width: 992px) {
+        .btn5 {
+            margin-top: 1rem;
+        }
+    }
+
+</style>
